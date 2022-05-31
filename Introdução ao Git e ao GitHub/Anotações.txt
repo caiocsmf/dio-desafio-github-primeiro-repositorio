@@ -6,7 +6,10 @@ $ git clone https://github.com/caiocsmf/dio-desafio-github-primeiro-repositorio.
 # este comando clona um repositório do GitHub para seu Git local
 
 $ git cd dio-desafio-github-primeiro-repositorio/  
-# este comando troca de diretório e vai para onde você indicar
+# este comando troca de diretório e vai para onde você indicar, usado para navegação
+
+$ git cd ..
+# retorna uma pasta no nível que está
 
 $ git status
 # este comando informa se o seu repositório está atualizado em relação à versão anterior
@@ -26,3 +29,6 @@ $ git commit -m "Inclusão das anotações do curso de Git/GitHub"
 $ git push origin main
 # main é nossa branch
 # esse comando envia todos os commits que temos localmente para a nuvem
+
+ctrl + l
+# esse comando limpa a tela do gitbash
